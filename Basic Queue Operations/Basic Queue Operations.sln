@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic Queue Operations", "Basic Queue Operations\Basic Queue Operations.csproj", "{CD548290-BCCA-474B-A98E-F8584EF27E7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD548290-BCCA-474B-A98E-F8584EF27E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD548290-BCCA-474B-A98E-F8584EF27E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD548290-BCCA-474B-A98E-F8584EF27E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD548290-BCCA-474B-A98E-F8584EF27E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9A4246A-2891-46A6-BA8D-E17D45998A22}
+	EndGlobalSection
+EndGlobal
