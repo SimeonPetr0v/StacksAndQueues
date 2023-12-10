@@ -4,27 +4,27 @@
     {
         static void Main(string[] args)
         {
-            Queue<string> isleQueue = new Queue<string>();
+            Queue<string> iQueue = new Queue<string>();
             string input = Console.ReadLine();
 
             while (input != "End")
             {
                 if (input == "Paid")
                 {
-                    while (isleQueue.Count > 0)
+                    while (iQueue.Count > 0)
                     {
-                        Console.WriteLine(isleQueue.Dequeue());
+                        Console.WriteLine(iQueue.Dequeue());
                     }
                 }
                 else
                 {
-                    isleQueue.Enqueue(input);
+                    iQueue.Enqueue(input);
                 }
 
                 input = Console.ReadLine();
             }
 
-            Console.WriteLine($"{isleQueue.Count} people remaining.");
+            Console.WriteLine($"{iQueue.Count} people remaining.");
 
         }
     }
